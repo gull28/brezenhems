@@ -1,0 +1,22 @@
+body, html {
+    margin: 0;
+    width: 100%;
+    height: 10%0;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.input_fields{
+    padding: 100px
+}
+
+.canvas_div{
+    display:grid;
+    justify-content: center;
+    padding: 100px;
+}

@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="input_fields">
+            <label for="x1">x1:</label><br>
+            <input type="text" id="x1_input" name="x1"><br>
+            <label for="x2">x2:</label><br>
+            <input type="text" id="x2_input" name="x2"><br>
+            <label for="y1">y1:</label><br>
+            <input type="text" id="y1_input" name="y1"><br>
+            <label for="y2">y2:</label><br>
+            <input type="text" id="y2_input" name="y2"><br>
+            <br>
+            <input type="button" value="Zimet" onclick="line()">
+        </div>
+        <div class="canvas_div">
+            <canvas id="myCanvas" onclick="clickEventHandler(event)" width="300" height="300" style="border:3px solid black; background-color: #d3d3d3;">
+            </canvas>
+        </div>
+        
+    </div>
+</body>
+</html>
